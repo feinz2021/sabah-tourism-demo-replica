@@ -1,14 +1,13 @@
 <template>
-<div class="container">
-<a class="button">Anchor</a>
-</div>
+  <div class="container">
+    <a class="btn waves-effect waves-light">button</a>
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
 
 export default {
-  components: {
-  }
-}
+  components: {},
+};
 </script>

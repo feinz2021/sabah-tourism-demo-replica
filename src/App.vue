@@ -1,11 +1,22 @@
 <template>
-  <nav class="navbar has-text-light has-background-info">
-    <div style="padding-left: 1%; padding-top: 5px" class="is-size-4 has-text-weight-bold">SABAH TOURISM</div>
-  </nav>
+  <NavBar />
   <router-link to="/">Home</router-link> |
   <router-link to="/about">About</router-link>
   <router-view />
 </template>
+
+<script>
+import NavBar from "@/components/NavigationBar.vue";
+export default {
+  components: { NavBar },
+  data() {
+    return {};
+  },
+  mounted() {
+    window.M.AutoInit();
+  },
+};
+</script>
 
 <style>
 </style>
