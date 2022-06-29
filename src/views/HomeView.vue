@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <div class="carousel" style="margin-top: 5%">
+    <!-- carousel -->
+    <div class="carousel" style="margin-top: 5%" data-aos="fade-down"  data-aos-duration="800"
+          data-aos-easing="ease-in-sine">
       <a class="carousel-item" href="#one!"
         ><img class="carouselCrop" src="../assets/andy-wang-wvd6teqldgA-unsplash.jpg"
       /></a>
@@ -44,14 +46,10 @@
           </div>
           <div class="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              I
             </p>
           </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-          </div>
+
         </div>
       </div>
       <!-- image 2 -->
@@ -79,13 +77,8 @@
           </div>
           <div class="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              I
             </p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
           </div>
         </div>
       </div>
@@ -114,13 +107,8 @@
           </div>
           <div class="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              I
             </p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
           </div>
         </div>
       </div>
@@ -149,13 +137,8 @@
           </div>
           <div class="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              I
             </p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
           </div>
         </div>
       </div>
@@ -184,13 +167,8 @@
           </div>
           <div class="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              I
             </p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
           </div>
         </div>
       </div>
@@ -219,13 +197,8 @@
           </div>
           <div class="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              I
             </p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
           </div>
         </div>
       </div>
