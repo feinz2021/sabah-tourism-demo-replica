@@ -1,24 +1,24 @@
 <template>
   <div class="container">
-    <div class="carousel">
+    <div class="carousel" style="margin-top: 5%">
       <a class="carousel-item" href="#one!"
-        ><img src="../assets/andy-wang-wvd6teqldgA-unsplash.jpg"
+        ><img class="carouselCrop" src="../assets/andy-wang-wvd6teqldgA-unsplash.jpg"
       /></a>
       <a class="carousel-item" href="#two!"
-        ><img src="../assets/fahrul-azmi-JK8f7i1L4bc-unsplash.jpg"
+        ><img class="carouselCrop" src="../assets/fahrul-azmi-JK8f7i1L4bc-unsplash.jpg"
       /></a>
       <a class="carousel-item" href="#three!"
-        ><img src="../assets/haydn-golden-GRRdN9pM2d4-unsplash.jpg"
+        ><img class="carouselCrop" src="../assets/haydn-golden-GRRdN9pM2d4-unsplash.jpg"
       /></a>
       <a class="carousel-item" href="#four!"
-        ><img src="../assets/joel-brunner-mNWDTud3AaI-unsplash.jpg"
+        ><img class="carouselCrop" src="../assets/joel-brunner-mNWDTud3AaI-unsplash.jpg"
       /></a>
       <a class="carousel-item" href="#five!"
-        ><img src="../assets/ling-tang-XjUhALD9HO4-unsplash.jpg"
+        ><img class="carouselCrop" src="../assets/ling-tang-XjUhALD9HO4-unsplash.jpg"
       /></a>
     </div>
 
-    <div class="row">
+    <div class="row" style="margin-top: 5%">
       <!-- image 1 -->
       <div class="col s12 m6 l4">
         <div
@@ -258,5 +258,11 @@ body {
 }
 .carousel .carousel-item {
   width: 500px !important;
+  height: 400px !important;
+}
+.carouselCrop {
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
 }
 </style>

@@ -25,9 +25,9 @@
     <div class="nav-wrapper">
       <router-link
         to="/"
-        style="margin-left: 1%; margin-top: -4px"
+        style="margin-left: 1%; margin-top: -2px"
         class="brand-logo left"
-        >Logo</router-link
+        >Sabah Tourism</router-link
       >
       <a href="#" data-target="mobile" class="sidenav-trigger right"
         ><i class="material-icons">menu</i></a
