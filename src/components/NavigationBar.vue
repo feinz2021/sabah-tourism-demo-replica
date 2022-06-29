@@ -7,7 +7,7 @@
     <li><a href="#!" style="color: #039be5">three</a></li>
   </ul>
   <!-- sidenav structure -->
-  <ul class="sidenav" id="mobile-demo">
+  <ul class="sidenav" id="mobile">
     <li><a href="sass.html">Sass</a></li>
     <li><a href="badges.html">Components</a></li>
     <li><a href="collapsible.html">Javascript</a></li>
@@ -22,23 +22,14 @@
     </li>
   </ul>
   <nav>
-    <div
-      class="nav-wrapper"
-      style="
-        background: linear-gradient(
-          139deg,
-          rgba(1, 87, 155, 1) 0%,
-          rgba(3, 155, 229, 1) 87%
-        );
-      "
-    >
+    <div class="nav-wrapper">
       <router-link
         to="/"
         style="margin-left: 1%; margin-top: -4px"
         class="brand-logo left"
         >Logo</router-link
       >
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger right"
+      <a href="#" data-target="mobile" class="sidenav-trigger right"
         ><i class="material-icons">menu</i></a
       >
       <ul class="right hide-on-med-and-down">
@@ -64,4 +55,11 @@ export default {
 </script>
 
 <style>
+.nav-wrapper {
+  background: linear-gradient(
+    139deg,
+    rgba(1, 87, 155, 1) 0%,
+    rgba(3, 155, 229, 1) 87%
+  );
+}
 </style>
