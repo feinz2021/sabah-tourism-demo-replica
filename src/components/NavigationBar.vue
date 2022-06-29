@@ -1,10 +1,10 @@
 <template>
   <!-- Dropdown Structure -->
   <ul id="dropdown" class="dropdown-content">
-    <li><a href="#!" style="color: #039be5">one</a></li>
-    <li><a href="#!" style="color: #039be5">two</a></li>
+    <li><a href="#!" style="color: #00acc1">one</a></li>
+    <li><a href="#!" style="color: #00acc1">two</a></li>
     <li class="divider"></li>
-    <li><a href="#!" style="color: #039be5">three</a></li>
+    <li><a href="#!" style="color: #00acc1">three</a></li>
   </ul>
   <!-- sidenav structure -->
   <ul class="sidenav" id="mobile">
@@ -58,8 +58,8 @@ export default {
 .nav-wrapper {
   background: linear-gradient(
     139deg,
-    rgba(1, 87, 155, 1) 0%,
-    rgba(3, 155, 229, 1) 87%
+    rgba(0, 96, 100, 1) 0%,
+    rgba(0, 172, 193, 1) 87%
   );
 }
 </style>
