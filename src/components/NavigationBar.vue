@@ -6,16 +6,23 @@
   </ul>
   <!-- sidenav structure -->
   <ul class="sidenav" id="mobile">
-    <li><a href="sass.html">Signature Attraction</a></li>
-    <li><a href="badges.html">Things To Do</a></li>
-    <li>
-      <div style="margin-left: 10%">
-      <select>
-        <option  value="" disabled selected>Niche Market</option>
-        <option value="1">Rural Tourism</option>
-        <option value="2">Business Events</option>
-      </select>
-      </div>
+    <li><a href="#!" style="color: white">Signature Attraction</a></li>
+    <li><a href="#!" style="color: white">Things To Do</a></li>
+    <li class="no-padding">
+      <ul class="collapsible collapsible-accordion">
+        <li>
+          <a class="collapsible-header"
+            ><span style="margin-left: 16px; color: white">Niche Market</span
+            ><i class="material-icons right" style="color: white">arrow_drop_down</i></a
+          >
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="#!" style="color: #00acc1">Rural Tourism</a></li>
+              <li><a href="#!" style="color: #00acc1">Business Events</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
     </li>
   </ul>
   <nav>
@@ -30,8 +37,8 @@
         ><i class="material-icons">menu</i></a
       >
       <ul class="left hide-on-med-and-down">
-        <li><a href="sass.html">Signature Attraction</a></li>
-        <li><a href="badges.html">Things To Do</a></li>
+        <li><a href="#!">Signature Attraction</a></li>
+        <li><a href="#!">Things To Do</a></li>
         <!-- Dropdown Trigger -->
         <li>
           <a class="dropdown-trigger" href="#!" data-target="dropdown"
@@ -53,6 +60,13 @@ export default {
 
 <style>
 .nav-wrapper {
+  background: linear-gradient(
+    139deg,
+    rgba(0, 96, 100, 1) 0%,
+    rgba(0, 172, 193, 1) 87%
+  );
+}
+.sidenav{
   background: linear-gradient(
     139deg,
     rgba(0, 96, 100, 1) 0%,
