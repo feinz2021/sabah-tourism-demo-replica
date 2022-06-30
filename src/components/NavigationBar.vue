@@ -29,7 +29,7 @@
     <div class="nav-wrapper">
       <router-link
         to="/"
-        style="margin-right: 1%; margin-top: -2px"
+        style="margin-right: 1%;"
         class="brand-logo right"
         >Sabah Tourism</router-link
       >
