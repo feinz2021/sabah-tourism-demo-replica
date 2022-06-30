@@ -2,26 +2,47 @@
   <footer class="page-footer">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">
-            You can use rows and columns here to organize your footer content.
-          </p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
+        <div class="col s12 m6 l3">
+          <h5 class="white-text">Traveler</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Essentials</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Signature Attractions</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Things to do</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Where to stay</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">What to eat</a></li>
+          </ul>
+        </div>
+
+        <div class="col s12 m6 l3">
+          <h5 class="white-text">Business</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Business Event</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Online Shop</a></li>
+          </ul>
+        </div>
+
+        <div class="col s12 m6 l3">
+          <h5 class="white-text">Media & Resources</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Infographics</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Image Gallery</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Newsletter</a></li>
+          </ul>
+        </div>
+
+        <div class="col s12 m6 l3">
+          <h5 class="white-text">General Info</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Career Opening</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-        © 2014 Copyright Text
+        © 2022 Copyright Text
         <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
       </div>
     </div>
@@ -33,4 +54,18 @@ export default {};
 </script>
 
 <style>
+.page-footer{
+  background: linear-gradient(
+    139deg,
+    rgba(0, 96, 100, 1) 0%,
+    rgba(0, 172, 193, 1) 87%
+  );
+}
+.footer-copyright{
+  background: linear-gradient(
+    139deg,
+    rgba(0, 96, 100, 1) 0%,
+    rgba(0, 172, 193, 1) 87%
+  );
+}
 </style>
