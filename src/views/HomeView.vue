@@ -303,7 +303,7 @@
 
 <script>
 import AOS from "../../node_modules/aos";
-// import M from "@materializecss/materialize";
+import M from "@materializecss/materialize";
 export default {
   components: {},
   data() {
@@ -331,12 +331,12 @@ export default {
   },
   mounted() {
     AOS.init();
-    window.M.AutoInit();
+    M.AutoInit();
     console.log(this.sliderIndicator);
 
     let elem = document.getElementById("carousel");
-    let carousel = window.M.Carousel.getInstance(elem);
-    window.M.Carousel.init(elem, {
+    let carousel = M.Carousel.getInstance(elem);
+    M.Carousel.init(elem, {
       // specify options here
     });
 
